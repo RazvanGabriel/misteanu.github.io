@@ -1,3 +1,13 @@
+/*
+
+color blue #2980b9
+
+
+*/
+
+
+
+
 /* --------------------------------------------------------*/
 /* BASIC SETUP */
 /* --------------------------------------------------------*/
@@ -48,9 +58,8 @@ section {
 /* -------- HEADINGS ------------*/
 
 h1,
-h2,
-h3 {
-    font-weight: 300;
+h2 {
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -58,7 +67,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 180%;
+    font-size: 250%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -72,15 +81,16 @@ h2 {
 }
 
 h3 {
+    font-weight: 300;
     font-size: 110%;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     color: #fff;
 }
 
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #2980b9;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -91,10 +101,10 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #2980b9;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #2980b9;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -105,6 +115,57 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
+/* -------- BUTTONS ------------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #2980b9;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #1d6391;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #1d6391;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #1d6391;
+    color: #fff;
+}
+
+
+
+
+
 
 
 /* --------------------------------------------------------*/
@@ -112,12 +173,14 @@ a:active {
 /* --------------------------------------------------------*/
 
 header { 
-    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-min.jpg); 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-min.jpg);
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header2.jpg); 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header2.jpg);
     background-image: url()
     background-size: cover;
     background-position: center;
+    /* the height in percentage of the browser height */
     height: 100vh;
+    /*height: 700px;*/
     background-attachment: fixed;
 }
 
@@ -130,6 +193,20 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+
+
 
 /* Main navi */
 
@@ -158,5 +235,14 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #2980b9;
+}
+
+
+/* --------------------------------------------------------*/
+/* PORTFOLIO */
+/* --------------------------------------------------------*/
+
+.portfolio {
+    
 }
