@@ -9,7 +9,7 @@
 
 html,
 body {
-    /*background-color: #fff;*/
+    background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -74,6 +74,7 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 h2:after {
@@ -111,21 +112,13 @@ a:active {
 /* --------------------------------------------------------*/
 
 header { 
-    /*background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg); 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-min.jpg); 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-min.jpg);
+    background-image: url()
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;*/
-}
-
-.hero-background video {
-    height: auto;
-    width: 100%;
-}
-
-video {
-    display: inline-block;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
