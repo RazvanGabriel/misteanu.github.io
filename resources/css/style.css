@@ -53,6 +53,7 @@ section {
 
 .box {
     padding: 1%;
+    text-align: center;
 }
 
 /* -------- HEADINGS ------------*/
@@ -96,6 +97,15 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+
+h4 {
+    font-weight: 300;
+    font-size: 150%;
+    margin: 30px 0;
+    color: #888;
+}
+
 
 /* -------- LINKS ------------*/
 
@@ -163,8 +173,18 @@ input[type=submit]:active {
 }
 
 
+/* -------- ICONS ------------*/
 
-
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #2980b9;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    
+}
 
 
 
@@ -242,6 +262,18 @@ header {
 /* --------------------------------------------------------*/
 /* PORTFOLIO */
 /* --------------------------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    /*border: 1px solid #2980b9;*/
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 2px;
+}
+
+
+
 
 .portfolio {
     
