@@ -218,11 +218,10 @@ header {
 
 
 .logo {
-    height: 100px;
+    height: 75px;
     width: auto;
     float: left;
-    margin-top: 20px;
-    display: none;
+    margin-top: 25px;
 }
 
 
