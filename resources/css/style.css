@@ -1,6 +1,7 @@
 /*
 
-color blue #2980b9
+color blue      #2980b9
+color dark blue #1d6391
 
 
 */
@@ -284,5 +285,41 @@ header {
     background-color: #f4f4f4;
 }
 
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
+}
 
 
+/* --------------------------------------------------------*/
+/* FOOTER */
+/* --------------------------------------------------------*/
+
+footer {
+    background-color: #1d6391;
+    padding: 50px;
+    font-size: 80%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    /*margin-top: 20px;*/
+}
