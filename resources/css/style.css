@@ -314,6 +314,7 @@ textarea {
     border-radius: 2px;
     margin-bottom: 20px;
     color: #fff;
+    text-align: center;
 }
 
 .succes {background-color: #2ecc71; display: none;}
