@@ -307,6 +307,21 @@ textarea {
 }
 
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.succes {background-color: #2ecc71; display: none;}
+
+.error {background-color: #e74c3c; display: none;}
+
+
+
 /* --------------------------------------------------------*/
 /* FOOTER */
 /* --------------------------------------------------------*/
