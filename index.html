@@ -64,7 +64,12 @@
             </div>
             
             <div class="row">
-                <form method="post" action="https://formspree.io/contact@razvangabriel.com" class="contact-form">
+                <form id="contact-form" method="post" action="https://formspree.io/contact@razvangabriel.com" class="contact-form">
+                    <div class="row">
+                        <div class="form-messages succes">Your message has been sent!</div>
+                        <div class="form-messages error">Oops! Something went wrong. Please try again.</div>
+                    </div>
+                    
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -94,9 +99,12 @@
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3">
+                            <!--CONFIG -->
+                            <input type="text" name="_gotcha" style="display:none" />
                             <input type="text" name="_format" value="plain" style="display:none" />
                             <input type="hidden" name="_subject" value="Message from razvangabriel.com!" />
-                            <input type="hidden" name="_next" value="index.html#contact" />
+                            <!--<input type="hidden" name="_next" value="index.html#contact" />-->
+                            <!-- /CONFIG -->
                             <input type="submit" value="Send it!">
                         </div>
                     </div>
@@ -112,6 +120,11 @@
                 </p>
             </div>
         </footer>
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="resources/js/formspree.js"></script>
         
         
         
