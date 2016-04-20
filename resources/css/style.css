@@ -197,7 +197,6 @@ input[type=submit]:active {
 header { 
     background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header2-min.jpg); 
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header2-min.jpg);
-    background-image: url()
     background-size: cover;
     background-position: center;
     /* the height in percentage of the browser height */
